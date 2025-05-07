@@ -1,0 +1,29 @@
+{
+    "packageRules": [
+    {
+      "matchConfidence": ["very high"],
+      "groupName": "very high merge confidence"
+    },
+    {
+      "matchConfidence": ["high"],
+      "groupName": "high merge confidence"
+    },
+    {
+      "matchConfidence": ["low"],
+      "groupName": "low merge confidence"
+    },
+    {
+      "matchConfidence": ["neutral"],
+      "groupName": "neutral merge confidence"
+    },
+    {
+      "matchConfidence": ["neutral"],
+       "automerge": true,
+       "ignoreTests": true
+
+    }
+
+  ],
+   "prHourlyLimit": 0
+}
+
